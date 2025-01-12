@@ -30,7 +30,7 @@ body {
 /* Header */
 
 header {
-  background-color: #853B5C;
+  background-color: #4A90E2; /* Cambiar color de fondo del header */
   color: white;
 }
 
@@ -243,9 +243,9 @@ footer.py-5 {
 }
 
 footer .footer-top {
-  padding: 60px 0px;
-  background-color: #570D2E;
+  background-color: #333333; /* Cambiar color de fondo del footer */
   color: white;
+  padding: 60px 0px;
 }
 
 footer .footer-top a {
@@ -320,6 +320,7 @@ main {
   margin-top: 56px;
   font-size: 36px;
   font-weight: normal;
+  color: #FF5733; /* Cambiar color del texto */
 }
 
 .hot-products-row {
@@ -337,16 +338,18 @@ main {
 .hot-product-card img {
   width: 100%;
   height: auto;
-  border-radius: 20% 0 20% 20%;
+  border-radius: 10%; /* Cambiar borde de las imágenes */
 }
 
 .hot-product-card-name {
   margin-top: 8px;
   font-size: 18px;
+  color: #2ECC71; /* Cambiar color del nombre del producto */
 }
 
 .hot-product-card-price {
   font-size: 14px;
+  color: #E74C3C; /* Cambiar color del precio del producto */
 }
 
 .hot-product-card > a:first-child {

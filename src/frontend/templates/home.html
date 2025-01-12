@@ -23,7 +23,8 @@
   </span>
 </div>
 <main role="main" class="home">
-
+  <h1 style="color: red; text-align: center;">El mejor estudiante de Infra & Arch estuvo aquí</h1>
+  <h1 style="color: red; text-align: center;">Que por cierto, soy yo JuanDa</h1>
   <!-- The image at the top of the home page, displayed on smaller screens. -->
   <div class="home-mobile-hero-banner d-lg-none"></div>
 
@@ -40,18 +41,18 @@
         <div class="row hot-products-row px-xl-6">
 
           <div class="col-12">
-            <h3>Hot Products</h3>
+            <h3 style="color: blue;">Hot Products</h3>
           </div>
 
           {{ range $.products }}
           <div class="col-md-4 hot-product-card">
             <a href="{{ $.baseUrl }}/product/{{.Item.Id}}">
-              <img loading="lazy" src="{{ $.baseUrl }}{{.Item.Picture}}">
+              <img loading="lazy" src="{{ $.baseUrl }}{{.Item.Picture}}" style="border: 2px solid green;">
               <div class="hot-product-card-img-overlay"></div>
             </a>
             <div>
-              <div class="hot-product-card-name">{{ .Item.Name }}</div>
-              <div class="hot-product-card-price">{{ renderMoney .Price }}</div>
+              <div class="hot-product-card-name" style="font-weight: bold;">{{ .Item.Name }}</div>
+              <div class="hot-product-card-price" style="color: purple;">{{ renderMoney .Price }}</div>
             </div>
           </div>
           {{ end }}
